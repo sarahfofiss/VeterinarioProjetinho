@@ -9,7 +9,7 @@ namespace Veterinario
         private string nome;
         private double cpf;
         private double cep;
-        private double crv;
+        private double crmv;
         private double telefone;
         private string email;
         private string especialidade;
@@ -23,8 +23,8 @@ namespace Veterinario
             cpf = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite o CEP");
             cep = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite sua CRV");
-            crv = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite sua CRMV");
+            crmv = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite o Telefone");
             telefone = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite o email");
